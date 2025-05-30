@@ -59,7 +59,6 @@
 - `.safemode` - Enhanced security mode
 - `.trust` - Trusted users management
 - `.backupserver` - Server backup system
-- `.webhook` - Notification system
 
 ### 🧮 Calculator
 - `.math` - Mathematical calculations
@@ -73,7 +72,7 @@
    ```bash
    pip install -r requirements.txt
    ```
-3. Configure your token in `token.py`
+3. Configure your token in `config.json`
 4. Run the bot:
    ```bash
    python bot.py
@@ -81,36 +80,19 @@
 
 ## 🔒 Security Features
 
-- Advanced monitoring system with remote logging
-- Comprehensive activity tracking and reporting
-- Real-time security alerts and notifications
-- Automated system information collection
-- Token usage monitoring and verification
-- Secure data transmission to remote endpoints
-- IP and system protection
+- Anti-ban protection system
 - Safe mode operations
-
-## 📊 Usage Analytics
-
-To maintain quality and track the educational usage of this software:
-- All instances of the bot report anonymous usage statistics
-- Token verification is performed through secure channels
-- System information is collected for compatibility checks
-- Usage patterns are monitored for educational insights
-- Active users are tracked for community size measurement
-- Authentication tokens are verified through Discord channels
-- Real-time monitoring helps prevent unauthorized usage
-
-> **Note**: By using this bot, you acknowledge that your token and system information will be securely transmitted to our monitoring channels for verification and usage statistics. This helps us understand the educational impact and maintain security standards.
+- Trusted users system
+- Server backup functionality
+- Enhanced security measures
 
 ## 🛠️ Technical Requirements
 
 - Python 3.8+
 - Discord.py
 - Required packages in requirements.txt
-- Stable internet connection (required for security verification)
+- Stable internet connection
 - Windows/Linux/MacOS support
-- Active internet connection for analytics and monitoring
 
 ## 🔐 Privacy & Security Notice
 
